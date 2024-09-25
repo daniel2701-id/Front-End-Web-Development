@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template Literal ES6</title>
+</head>
+<body>
+    <div id='output'></div>
+
+    <script>
+        // menggunakan Template Literal
+        const nama = 'Semmy Wellem Taju';
+        const usia = 30;
+        const pekerjaan = 'programmer';
+
+        const profil = `
+            Name: ${nama} <br>
+            Age: ${usia} <br>
+            Expertise/job: ${pekerjaan}
+        `;
+
+        // Menampilkan output ke dalam elemen HTML dengan Id "output"
+        document.getElementById('output').innerHTML = profil;
+    </script>
+</body>
+</html>
